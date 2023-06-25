@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/564x/f2/db/7b/f2db7b5b7fd0518ddb80c192fb69064c.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #0f0f0fc0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 4rem;
+    padding: 12px;
+    font-family: Algerian;
+    color: #fcfcfc;
+  }
+  
+  .navbar {
+    background-color: #288deb;
+    padding: 20px;
+    width: 180px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    margin-bottom: 10px;
+  }
+  
+  
+  .navbar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #ffffff;
+  }
+  
+  .navbar a:active,
+  .navbar a.active {
+    color: #51c6ce; 
+  }
+  
+  .content {
+    background-color: #fff;
+    margin-left: 200px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 16px;
+  }
+  
+  .footer {
+    background-color: #288deb;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .header h1 {
+      font-size: 3rem;
+      padding: 6px;
+    }
+  
+    .navbar {
+      width: auto;
+      padding: 10px;
+      position: static;
+    }
+  
+    .content {
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .footer {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .header h1 {
+      font-size: 2rem;
+      padding: 4px;
+    }
+  
+    .navbar {
+      width: auto;
+      padding: 5px;
+      position: static;
+    }
+  
+    .content {
+      margin-left: 0;
+      padding: 5px;
+    }
+  
+    .footer {
+      padding: 10px;
+    }
+  }
+        
+   header {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .logo-container {
+    margin-right: 10px;
+  }
+  
+  .logo {
+    width: 70px; 
+    height: auto;
+  }
+  
+  .header-text {
+    margin: 0; 
+  }
+  
+      
+      
